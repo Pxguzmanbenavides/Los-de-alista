@@ -1,0 +1,118 @@
+h1{
+    
+        font-family: "Cal Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color:#ec4434;
+        font-size: 50px;
+ }
+
+h2{
+        font-family: "Cal Sans", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color:#ec4434;
+        font-size: 40px;
+
+}
+
+.who{
+    background-color: #ffd69e;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5%;
+    border-style:solid; color: #f46c3c;
+    block-size: auto;
+    width: 700px;
+    margin:auto;
+
+}
+p, li{
+   
+        font-family: "Chewy", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        color:#f46c3c;
+        font-size: larger;
+}
+
+body{
+    background-color:#fee1b4;
+} 
+
+nav{
+    text-align: center;
+    list-style: none;
+    margin-bottom:15px;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.nav p{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    font-size: 35px;
+}
+
+nav p, nav a :hover,
+main ul li:hover{
+    background-color:#ffd69e ;
+    color:#ec4434;
+    cursor: pointer; 
+}
+
+.pau{
+    background-color: #ffd69e;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5%;
+    border-style:solid; color: #f46c3c;
+    block-size: auto;
+    width: 700px;
+    margin:auto;
+    padding-top: 10px;
+    padding-block: auto;
+}
+
+.juju{
+    background-color: #ffd69e;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5%;
+    border-style:solid; color: #f46c3c;
+    block-size: auto;
+    width: 700px;
+    margin:auto;
+    padding-top: 10px;
+    padding-block: auto;
+}
+.rod{
+    background-color: #ffd69e;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5%;
+    border-style:solid; color: #f46c3c;
+    block-size: auto;
+    width: 700px;
+    margin:auto;
+    padding-top: 10px;
+    padding-block: auto;
+}
+.iris{
+    background-color: #ffd69e;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5%;
+    border-style:solid; color: #f46c3c;
+    block-size: auto;
+    width: 700px;
+    margin:auto;
+    padding-top: 10px;
+    padding-block: auto;
+}
