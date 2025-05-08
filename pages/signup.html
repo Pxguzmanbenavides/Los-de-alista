@@ -1,6 +1,67 @@
 <!DOCTYPE html>
 <html>
-    <head></head>
+    <head>
+        <title>Sign up!</title>
+        <link href="../styles/lda.css" rel="stylesheet" type="text/css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Chewy&display=swap" rel="stylesheet">
+        
+        <style>
+        label{
+        font-family: "Chewy", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        color:#f46c3c;
+        font-size: larger;
+         }
+
+         input{
+            font-family: "Chewy", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        color:#6f321b;
+        font-size: larger;
+         }
+
+         .Sign{
+            background-color: #ffd69e;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5%;
+    border-style:solid; color: #f46c3c;
+    block-size: auto;
+    width: 700px;
+    margin:auto;
+         }
+
+            
+        </style>
+    </head>
     <body>
-        <h1>test</h1>
+    <section class="Sign">
+        <h1>Sign up!</h1>
+    <form>
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username">
+    <br>
+        <label for="passwords">Password:</label><br>
+        <input type="password" id="password" name="password">
+    </form>
+    <button>Enter</button>
+
+    <h3>Do you accept the terms and policies ?</h3>
+    <button>
+        <label for="yes">Yes I accept:</label><br>
+        <input type="checkbox">
+    </button>
+    <button>
+        <label for="no">No I don't accept:</label><br>
+        <input type="checkbox">
+    </button>
+    </section>
+
+
     </body>
